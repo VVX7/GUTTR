@@ -22,10 +22,10 @@ from guttr import *
 p = Post()
 
 # Retrieve the most recent 20 posts
-p.get_user_posts(user_id='newsmax', maximum=20, direction="rev")
+print(p.get_user_posts(user_id='newsmax', maximum=20, direction="rev"))
 
 # Retrieve the least recent 20 posts
-p.get_user_posts(user_id='newsmax', maximum=20, direction="fwd")
+print(p.get_user_posts(user_id='newsmax', maximum=20, direction="fwd"))
 
 # Retrieve all posts
 p.get_user_posts(user_id='newsmax', direction="rev", follow=True)
@@ -39,7 +39,7 @@ from guttr import *
 p = Suggest()
 
 # Retrieve the top 10 suggestions
-p.suggest_hashtag(maximum=10)
+print(p.suggest_hashtag(maximum=10))
 ```
 
 #### Search post content
@@ -50,7 +50,7 @@ from guttr import *
 p = Post()
 
 # Retrieve the top 10 suggestions
-p.search_posts(query="how to insurrection", maximum=10)
+print(p.search_posts(query="how to insurrection", maximum=10))
 ```
 
 ## API Methods
