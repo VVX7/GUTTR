@@ -1,6 +1,6 @@
-# Guttr
+# GUTTR
 
-A Gettr client library written in Python.
+A GETTR client library written in Python.
 
 I rushed to get this out so it's a bit janky. Open an issue if something is broken or missing.
 
